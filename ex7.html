@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg width="500" height="500">
+      <defs>
+        <g id="sampleg">
+          <rect x="10" y="10" width="100" height="100" fill="blue"></rect>
+          <circle cx="56" cy="72" r="20" fill="red"></circle>
+        </g>
+      </defs>
+
+      <use href="#sampleg" x="50" y="20"></use>
+      <use href="#sampleg" x="180" y="80"></use>
+      <use href="#sampleg" x="280" y="180"></use>
+    </svg>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <svg width="500" height="500">
+      <clipPath id="clippath1">
+        <circle cx="36" cy="172" r="100"></circle>
+      </clipPath>
+
+      <pattern
+        id="pattern1"
+        width="10"
+        height="10"
+        patternUnits="userSpaceOnUse"
+      >
+        <rect width="8" height="8" fill="red"></rect>
+        <rect width="4" height="4" fill="blue"></rect>
+      </pattern>
+
+      <!-- <circle
+        cx="156"
+        cy="172"
+        r="150"
+        fill="pink"
+        stroke-width="20"
+        stroke="url(#pattern1)"
+        clip-path="url(#clippath1)"
+      ></circle> -->
+
+      <circle
+        cx="156"
+        cy="172"
+        r="150"
+        fill="pink"
+        stroke-width="20"
+        stroke="url(#pattern1)"
+        style="clip-path: url(#clippath1)"
+      ></circle>
+    </svg>
+  </body>
+</html>

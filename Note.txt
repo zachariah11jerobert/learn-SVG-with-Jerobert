@@ -1,0 +1,40 @@
+SVG Shapes: (Part -1 & Part -2)
+
+1) Line
+2) Rectangle
+3) Circle
+4) Ellipse
+5) Text
+
+6) Polygon
+7) Polyline
+
+8) Path
+M - Move to x,y (absolute)
+m - Move to x,y =>1x+x, ly+y (relative)
+L - Line to x,y (absolute)
+1 - Line to x,y => 1x+x,ly+y (relative)
+V - Vertical line x,y
+V
+H - Horizontan line x,y
+
+C - curve to cx1,cy1 cx2,cy2 ex, ey
+S - smooth curve cx2,cy2 ex,ey
+Q - quadratic curveto cx, cy ex, ey
+T - smooth quadratic curveto ex, ey
+Z - close path
+9) textpath
+
+====================================================================================
+1) Stroke
+=> Stroke
+border & its color
+=> Stroke-width
+border's size (border weight)
+=> Stroke-linecap
+butt(default)
+round
+square
+=> Stroke-dasharray
+=> stroke-opasity
+2) G - Group
